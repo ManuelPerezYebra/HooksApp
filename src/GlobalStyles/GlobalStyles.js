@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   body{
-    margin: 0;
+    
     font-family: sans-serif;
   }
 
@@ -28,4 +28,7 @@ export const GlobalStyles = createGlobalStyle`
     margin-bottom: 0;
     padding-left: 0;
   }  
+  button{
+    margin: 5px;
+  }
 `;
